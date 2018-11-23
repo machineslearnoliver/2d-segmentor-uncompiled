@@ -1,0 +1,10 @@
+.output-image {
+  margin-left: 35px;
+  border-radius: 5px;
+}
+
+mat-slider {
+  display: inline block;
+  width: 261px;
+  margin-left: 35px;
+}

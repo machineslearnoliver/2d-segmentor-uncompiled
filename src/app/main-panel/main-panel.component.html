@@ -1,0 +1,12 @@
+<div *ngIf="hasFileSelected" class="both-panels">
+  <mat-grid-list cols="2" rowHeight="500px">
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+      <app-input-panel></app-input-panel>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="1" [rowspan]="1"
+      ><app-output-panel></app-output-panel>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
+<div *ngIf="!hasFileSelected" class="file-panel"><app-upload></app-upload></div>
+<!-- <app-vtk-panel></app-vtk-panel> -->

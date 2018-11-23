@@ -1,0 +1,22 @@
+:host {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+ul {
+  list-style: none;
+  margin: auto;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  padding: 5px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}

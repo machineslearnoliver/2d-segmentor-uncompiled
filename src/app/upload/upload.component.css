@@ -1,0 +1,28 @@
+:host {
+  width: 100%;
+  display: block;
+}
+
+mat-card {
+  text-align: center;
+}
+.upload-center {
+  color: red;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+input[type='file'] {
+  display: none;
+}
+
+.image-preview {
+  height: 5rem;
+  margin: 1rem 0;
+}
+
+.image-preview img {
+  height: 100%;
+}

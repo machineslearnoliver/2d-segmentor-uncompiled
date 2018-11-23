@@ -1,0 +1,16 @@
+canvas {
+  border-radius: 5px;
+}
+
+canvas-whiteboard {
+  width: 257px;
+  height: 257px;
+  display: block;
+  border-radius: 5px;
+  border: none !important;
+}
+
+button {
+  width: 131px;
+  display: inline;
+}
