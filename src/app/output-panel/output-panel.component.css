@@ -1,10 +1,9 @@
 .output-image {
-  margin-left: 35px;
-  border-radius: 5px;
+	height: 100%;
+	width: 100%;
 }
 
 mat-slider {
-  display: inline block;
-  width: 261px;
-  margin-left: 35px;
+	display: inline block;
+	width: 100%;
 }
