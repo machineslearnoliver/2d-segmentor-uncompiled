@@ -1,4 +1,7 @@
-<img class="output-image" src="{{file}}" />
+<img
+	class="output-image"
+	[src]="_DomSanitizationService.bypassSecurityTrustUrl(file)"
+/>
 
 <mat-slider
 	min="1"
